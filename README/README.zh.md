@@ -5,12 +5,12 @@
 [![Github Release](https://img.shields.io/github/release/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/releases/)
 [![Github License](https://img.shields.io/github/license/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE)
 
->如果你喜欢本主题，可点击`star`收藏
+> 如果你喜欢本主题，可点击`star`收藏
 
 Live Demo:
 
->Stable: [https://lx.js.org](https://lx.js.org)
->Dev: [https://lx.blleng.cn](https://lx.blleng.cn)
+> Stable: [https://lx.js.org](https://lx.js.org)
+> Dev: [https://lx.blleng.cn](https://lx.blleng.cn)
 
 作者的博客: [https://freezing.cool](https://freezing.cool)
 
@@ -41,11 +41,12 @@ clone into 'themes/lx'...
 ```yml
 theme: lx
 ```
+
 主题的配置将在`themes/lx/_config.yml`中进行。
 
 ## 功能配置
 
->这里的说明并不完整，请参考`themes/lx/_config.yml`中的注释信息。
+> 这里的说明并不完整，请参考`themes/lx/_config.yml`中的注释信息。
 
 ### 统计
 
@@ -77,7 +78,7 @@ local_search:
 
 ### 评论
 
-评论使用valine，官网：[https://valine.js.org](https://valine.js.org)
+评论使用 valine，官网：[https://valine.js.org](https://valine.js.org)
 
 启用：在`themes/lx/_config.yml`填写:
 
@@ -108,7 +109,7 @@ mathjax: ...
 ---
 ```
 
-`appid`和`appkey`在leancloud创建应用后即可获取。
+`appid`和`appkey`在 leancloud 创建应用后即可获取。
 
 ### Social Links
 
@@ -131,7 +132,7 @@ social:
 
 ```yml
 mathjax:
-  enable: true  ##true:启用 | false:停用
+  enable: true ##true:启用 | false:停用
   cdn: //cdn.bootcss.com/mathjax/2.7.5/latest.js?config=TeX-MML-AM_SVG
 ```
 
@@ -159,7 +160,7 @@ font:
     family: Fira Code
   else: ##文字字体
     enable: false
-    family: 
+    family:
 ```
 
 ## 文章写作样式
@@ -174,12 +175,12 @@ font:
 
 示例：
 
-```markdown
+<!-- ```markdown
 {%note default%}
 ### title
 content
 {%endnote%}
-```
+``` -->
 
 ### Label tag
 
