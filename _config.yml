@@ -7,7 +7,7 @@ version: 0.4.3
 favicon: favicon.ico
 
 # Theme-color for Android Chrome
-theme_color: "#58b77a"
+theme_color: '#58b77a'
 
 # personal information
 personal_des: Hello, World!
@@ -27,7 +27,7 @@ nex_post: https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/images/footer-
 # menu content
 menu:
   category: false #category
-  pages:  #the page created by yourself
+  pages: #the page created by yourself
     enable: true
     links:
       Guestbook: guestbook/
@@ -36,7 +36,6 @@ menu:
     enable: true
     links:
       Theme-Lx: https://lx.js.org
-
 
 # social links
 #
@@ -68,7 +67,7 @@ social:
 #'npm install hexo-generator-searchdb -s'
 local_search:
   enable: false
-  trigger: auto #'auto' or 'manual' 
+  trigger: auto #'auto' or 'manual'
   top_n_per_article: 1
   unescape: false
   preload: false
@@ -111,7 +110,7 @@ font:
   codes: ##the font for codes
     enable: true
     family: Fira Code
-  else:  ##the font for others
+  else: ##the font for others
     enable: false
     family: Noto Serif SC
 
@@ -119,17 +118,15 @@ font:
 # If true, Lx will load 'source/css/custom.styl'
 custom_css: false
 
-
-
 ########### Develop Options ############
 ############# Warning ##################
 ####### Don't edit options below #######
 ## unless you know what you are doing ##
 ############# Warning ##################
 
-
 #The dir of Js and Css
 base_file:
   jquery_cdn: https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
   js: https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/js/
   css: https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/css/main.min.css
+theme: lx
