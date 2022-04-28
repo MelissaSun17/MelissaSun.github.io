@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
 deploy:
   type: git
-  repository: https://melissasun17.github.io/MelissaSun.github.io/
+  repository: https://github.com/melissasun17.github.io/MelissaSun.github.io/
   branch: gh-pages
